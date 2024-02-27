@@ -1,0 +1,13 @@
+.movieDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.movieDetailsContainer p{
+    font-size: 23px;
+    color: gold;
+}
+.imgAndInfoDiv{
+
+}

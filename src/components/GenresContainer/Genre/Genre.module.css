@@ -1,0 +1,25 @@
+.genreDiv {
+    border: 2px solid gold;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -1px;
+    /*background: rebeccapurple;*/
+}
+.genreDiv a {
+    /*line-height: 30px;*/
+    text-decoration: none;
+    color: gold;
+    background: rebeccapurple;
+    height: 30px;
+    border-radius: 30px;
+
+}
+.genreDiv a[class='active'] {
+    color: #ffe998;
+    background: #9452d2;
+}
