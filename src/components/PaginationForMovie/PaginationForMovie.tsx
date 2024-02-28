@@ -1,11 +1,28 @@
 import React from 'react';
-import {Pagination, Stack} from "@mui/material";
-const PaginationForMovie = () => {
+import {useSearchParams} from "react-router-dom";
+import style from './PaginationForMovie.module.css'
 
+const PaginationForMovie = () => {
+    const [query, setQuery] = useSearchParams({page: '1'});
+    const currentPage = query.get('page')?query.get('page'):'1'
+
+    const next = () => {
+        const nextPage = +currentPage + 1;
+        setQuery({ page: nextPage.toString() });
+    }
+
+    const prev = () => {
+        if (+currentPage > 1) {
+            const prevPage = +currentPage - 1;
+            setQuery({ page: prevPage.toString() });
+        }
+    }
     return (
-        <Stack spacing={2}>
-            <Pagination count={10} variant="outlined" shape="rounded" style={{background:'gold', width:'350px'}}/>
-        </Stack>
+        <div className={style.paginationContainer}>
+            <button  onClick={prev} className={style.buttonPagination}>prev</button>
+            <div className={style.currentPageDiv}>{currentPage}</div>
+            <button  onClick={next} className={style.buttonPagination}>next</button>
+        </div>
     );
 };
 

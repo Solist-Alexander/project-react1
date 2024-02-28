@@ -4,7 +4,8 @@ import {IMovie} from "../../interfaces /movieInterface";
 import {useParams, useSearchParams} from "react-router-dom";
 import {movieService} from "../../services/movieService";
 import MoviesListCard from "../MoviesContainer/MoviesListCard/MoviesListCard";
-import style from "../MoviesContainer/MoviesList/MoviesList.module.css";
+import style from './GenresIdList.module.css'
+import PaginationForMovie from "../PaginationForMovie/PaginationForMovie";
 
 const GenresIdList = () => {
     const [movies, setMovies] = useState<IMovie[] >([])
@@ -18,23 +19,14 @@ const GenresIdList = () => {
         }
 }, [genreId, query]);
 
-    const next = () => {
-        const nextPage = +currentPage + 1;
-        setQuery({ page: nextPage.toString() });
-    }
 
-    const prev = () => {
-        if (+currentPage > 1) {
-            const prevPage = +currentPage - 1;
-            setQuery({ page: prevPage.toString() });
-        }
-    }
 
     return (
         <div className={style.moviesListCardDiv}>
             {movies.map(movie => <MoviesListCard key={movie?.id} movie={movie} />)}
-            <button  onClick={prev}>prev</button>
-            <button  onClick={next}>next</button>
+            <div className={style.PaginationForMovieDiv}>
+                <PaginationForMovie/>
+            </div>
         </div>
     );
 };

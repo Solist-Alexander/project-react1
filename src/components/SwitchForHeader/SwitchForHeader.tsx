@@ -60,7 +60,7 @@ const SwitchForHeader = () => {
         if (!darkTheme) {
             document.body.style.backgroundColor = "#ffe8e8"; // для светлой темы
         } else {
-            document.body.style.backgroundColor = "#000000"; // для темной темы
+            document.body.style.backgroundColor = "#3c3c3c"; // для темной темы
         }
     };
 
