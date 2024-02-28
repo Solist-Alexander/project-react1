@@ -8,13 +8,13 @@ import {useAppLocation} from "../hooks /useAppLocation";
 const MovieInfoPage = () => {
     const [moviesDetails, setMoviesDetails] = useState<IMovie | null>(null)
     const {state} = useAppLocation<{ movie: IMovie }>();
-    const {id} = useParams();
+    const {movieId} = useParams();
     useEffect(() => {
-        if (id) {
+        if (movieId) {
             if (state?.movie) {
                 setMoviesDetails(state.movie);
             } else {
-                movieService.getById(+id).then(({ data }) => setMoviesDetails(data));
+                movieService.getById(+movieId).then(({ data }) => setMoviesDetails(data));
             }
         }
     }, []);

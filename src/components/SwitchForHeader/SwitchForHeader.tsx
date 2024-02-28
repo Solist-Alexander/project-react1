@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FormControlLabel, styled, Switch, SwitchProps} from "@mui/material";
 
 const SwitchForHeader = () => {
+    const [darkTheme, setDarkTheme] = useState(false);
+
     const IOSSwitch = styled((props: SwitchProps) => (
         <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props} />
     ))(({ theme }) => ({
@@ -52,10 +54,20 @@ const SwitchForHeader = () => {
             }),
         },
     }));
+
+    const handleThemeChange = () => {
+        setDarkTheme(prevTheme => !prevTheme);
+        if (!darkTheme) {
+            document.body.style.backgroundColor = "#ffe8e8"; // для светлой темы
+        } else {
+            document.body.style.backgroundColor = "#000000"; // для темной темы
+        }
+    };
+
     return (
         <div>
             <FormControlLabel
-                control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
+                control={<IOSSwitch sx={{ m: 1 }} defaultChecked  onChange={handleThemeChange} checked={darkTheme}/>}
                 label="iOS style"
             />
         </div>

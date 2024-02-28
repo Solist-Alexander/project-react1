@@ -17,10 +17,7 @@
 .header a[class='active']{
     color: gold;
 }
-.headerLink:first-of-type{
-margin-left: 40px;
+.header div a:first-of-type{
+margin-left: 120px;
 }
 
-.iconUser {
-    margin-left: 40px;
-}

@@ -4,7 +4,7 @@ const PaginationForMovie = () => {
 
     return (
         <Stack spacing={2}>
-            <Pagination count={10} variant="outlined" shape="rounded" style={{color:'gold'}}/>
+            <Pagination count={10} variant="outlined" shape="rounded" style={{background:'gold', width:'350px'}}/>
         </Stack>
     );
 };
