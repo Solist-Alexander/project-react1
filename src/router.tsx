@@ -25,9 +25,6 @@ const router = createBrowserRouter([
                 path:'genres', element: <GenresPage/>,children:[
                     {
                         path:'/genres/:genreId', element:<GenresIdList/>
-                    },
-                    {
-                        path:'/genres/:genreId/:movieId', element:<MovieInfoPage/>
                     }
                 ]
             },

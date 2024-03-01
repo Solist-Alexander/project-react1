@@ -1,10 +1,13 @@
-import React, {useState} from 'react';
-import {FormControlLabel, styled, Switch, SwitchProps} from "@mui/material";
+import React from 'react';
+import { FormControlLabel, styled, Switch, SwitchProps } from '@mui/material';
 
-const SwitchForHeader = () => {
-    const [darkTheme, setDarkTheme] = useState(false);
+interface SwitchForHeaderProps {
+    darkTheme: boolean;
+    onChange: (checked: boolean) => void;
+}
 
-    const IOSSwitch = styled((props: SwitchProps) => (
+const SwitchForHeader: React.FC<SwitchForHeaderProps> = ({ darkTheme, onChange }) => {
+    const IOSSwitch = styled((props: SwitchProps & { onChange: (e: React.ChangeEvent<HTMLInputElement>) => void }) => (
         <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props} />
     ))(({ theme }) => ({
         width: 42,
@@ -55,20 +58,17 @@ const SwitchForHeader = () => {
         },
     }));
 
-    const handleThemeChange = () => {
-        setDarkTheme(prevTheme => !prevTheme);
-        if (!darkTheme) {
-            document.body.style.backgroundColor = "#ffe8e8"; // для светлой темы
-        } else {
-            document.body.style.backgroundColor = "#3c3c3c"; // для темной темы
-        }
-    };
-
     return (
         <div>
             <FormControlLabel
-                control={<IOSSwitch sx={{ m: 1 }} defaultChecked  onChange={handleThemeChange} checked={darkTheme}/>}
-                label="iOS style"
+                control={
+                    <IOSSwitch
+                        sx={{ m: 1 }}
+                        onChange={(e) => onChange(e.target.checked)}
+                        checked={darkTheme}
+                    />
+                }
+                label=""
             />
         </div>
     );
