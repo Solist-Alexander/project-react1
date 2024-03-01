@@ -20,12 +20,13 @@ const MoviesList = () => {
 
 
     return (
-        <div className={style.moviesListCardDiv}>
-            {movies.map(movie => <MoviesListCard key={movie?.id} movie={movie} />)}
+        <div >
+            <div className={style.moviesListCardDiv}>
+                {movies.map(movie => <MoviesListCard key={movie?.id} movie={movie}/>)}
+            </div>
             <div className={style.PaginationForMovieDiv}>
                 <PaginationForMovie/>
             </div>
-
         </div>
     );
 };

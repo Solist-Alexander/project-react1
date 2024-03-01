@@ -5,10 +5,17 @@
     grid-column-gap: 10px;
     margin-left: 60px;
     grid-row-gap: 10px;
-    margin-bottom: 50px;
 }
 .PaginationForMovieDiv{
-    position: absolute;
-    top: 227%;
-    left: 40%;
+   margin: 20px 0 20px 580px;
+}
+.inputSearch{
+    margin: 20px 0 20px 600px;
+    height: 50px;
+    width: 200px;
+    padding-left: 20px ;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background: #622a2a;
+    color: gold;
 }

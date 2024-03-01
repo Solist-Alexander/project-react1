@@ -6,11 +6,8 @@
     grid-column-gap: 10px;
     margin-left: 60px;
     grid-row-gap: 10px;
-    margin-bottom: 50px;
 }
 
-.PaginationForMovieDiv {
-    position: absolute;
-    top: 231%;
-    left: 40%;
+.PaginationForMovieDiv{
+    margin: 20px 0 20px 580px;
 }

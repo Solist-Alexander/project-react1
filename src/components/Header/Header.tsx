@@ -13,7 +13,7 @@ const Header = () => {
             <div>
                 <NavLink to={'/movies'} >Movies</NavLink>
                 <NavLink to={'/genres'} >Genres</NavLink>
-                <NavLink to={''} >Search</NavLink>
+                <NavLink to={'search'} >Search</NavLink>
             </div>
             <span style={{color: "white", fontSize: "30px", marginLeft:'120px', marginRight:'15px'}}>Theme</span>
             <SwitchForHeader />
