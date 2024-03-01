@@ -29,3 +29,6 @@
     border: none;
     cursor: pointer;
 }
+.moviesListCardDark p {
+    color: black;
+}

@@ -1,4 +1,4 @@
-.header{
+.header {
     background: black;
     height: 6vh;
     width: 80vw;
@@ -8,22 +8,47 @@
     text-align: center;
     align-items: center;
 }
+
 .header a {
     color: white;
     text-decoration: none;
     font-size: 30px;
     margin-left: 10px;
 }
-.header a[class='active']{
+
+.header a[class='active'] {
     color: gold;
 }
-.header div a:first-of-type{
-margin-left: 120px;
+
+.header div a:first-of-type {
+    margin-left: 120px;
 }
 
-.iconUser{
+.textDatabase {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.textTheme {
+    color: white;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-right: 15px;
+}
+
+.iconUser {
     margin-left: 60px;
 }
-.headerDark{
-    background: #9452d2;
+
+.headerDark {
+    background: #847394;
+}
+
+.headerDark a {
+    color: black;
+}
+
+.headerDark p {
+    color: black;
 }

@@ -15,7 +15,7 @@
     width: 200px;
     padding-left: 20px ;
     border-radius: 5px;
-    border: 2px solid gray;
-    background: #622a2a;
-    color: gold;
+    border: 2px solid #ff0000;
+    background: #ffffff;
+    color: black;
 }
