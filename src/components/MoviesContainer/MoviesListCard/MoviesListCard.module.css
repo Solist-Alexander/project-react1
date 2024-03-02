@@ -1,13 +1,15 @@
 .moviesListCard{
-    height: 465px;
+    margin-top: 20px;
+    height: 427px;
     width: 250px;
-    /*border: 2px solid grey;*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    /*background: grey;*/
+    background: grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .moviesPosterImg{
     height: 350px;
@@ -28,6 +30,10 @@
     background: none;
     border: none;
     cursor: pointer;
+
+}
+.moviesListCardDark{
+    background: #9452d2;
 }
 .moviesListCardDark p {
     color: black;

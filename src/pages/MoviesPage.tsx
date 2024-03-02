@@ -1,6 +1,6 @@
 import React from 'react';
 import MoviesList from "../components/MoviesContainer/MoviesList/MoviesList";
-import PaginationForMovie from "../components/PaginationForMovie/PaginationForMovie";
+import PaginationForMovie from "../components/Paginations/PaginationForMovie/PaginationForMovie";
 
 const MoviesPage = () => {
     return (

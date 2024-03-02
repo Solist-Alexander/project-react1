@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c624ded-8f12-423b-a36b-691d65f265f2" name="Changes" comment="project-react" />
+    <list default="true" id="0c624ded-8f12-423b-a36b-691d65f265f2" name="Changes" comment="project-react">
+      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetailsGenres.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForSearch/PaginationForSearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresIdContainer/GenresIdList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresIdContainer/GenresIdList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetails.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesList/MoviesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesList/MoviesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/MoviesListCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/MoviesListCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/MoviesListCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/MoviesListCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaginationForMovie/PaginationForMovie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForMovie/PaginationForMovie.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaginationForMovie/PaginationForMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForMovie/PaginationForMovie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchContainer/SearchList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchContainer/SearchList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchForHeader/SwitchForHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchForHeader/SwitchForHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/urls.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/urls.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/ThemeContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +39,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c0789aca-40b4-46dc-bd2f-24a7f78ebb0f" />
+        <option name="url" value="https://github.com/Solist-Alexander/project-react1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,6 +85,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Paginations" />
       <recent name="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard" />
       <recent name="$PROJECT_DIR$/src/constans" />
       <recent name="$PROJECT_DIR$/src/components/Header/headerImages" />
@@ -70,6 +102,8 @@
       <workItem from="1708892623330" duration="46952000" />
       <workItem from="1709122052876" duration="12788000" />
       <workItem from="1709286609866" duration="1909000" />
+      <workItem from="1709288925690" duration="9983000" />
+      <workItem from="1709392005892" duration="12937000" />
     </task>
     <task id="LOCAL-00001" summary="project-react">
       <option name="closed" value="true" />
@@ -111,7 +145,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709288710520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="project-react">
+      <option name="closed" value="true" />
+      <created>1709290080828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709290080828</updated>
+    </task>
+    <task id="LOCAL-00007" summary="project-react">
+      <option name="closed" value="true" />
+      <created>1709297791290</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709297791290</updated>
+    </task>
+    <task id="LOCAL-00008" summary="project-react">
+      <option name="closed" value="true" />
+      <created>1709306106553</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709306106554</updated>
+    </task>
+    <task id="LOCAL-00009" summary="project-react">
+      <option name="closed" value="true" />
+      <created>1709326828515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709326828515</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

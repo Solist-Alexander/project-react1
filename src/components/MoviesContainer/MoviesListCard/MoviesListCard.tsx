@@ -18,7 +18,6 @@ const MoviesListCard: FC<IProps> = ({movie}) => {
 
     return (
         <div className={`${style.moviesListCard} ${darkTheme ? style.moviesListCardDark : style.moviesListCardLight}`}>
-        {/*<div className={style.moviesListCard}>*/}
             <button onClick={() => navigate(`/movies/${id}`, {state: {movie}})}>
                 <div className={style.moviesPosterImgDiv}>
                     <img className={style.moviesPosterImg} src={`https://image.tmdb.org/t/p/w500/${poster_path}`}

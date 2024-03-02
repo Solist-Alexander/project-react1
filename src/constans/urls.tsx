@@ -3,7 +3,7 @@ const baseURL = process.env.REACT_APP_MOVIES_API
 const movies = '/discover/movie'
 const movie = '/movie'
 const genres = '/genre/movie/list'
-const search = '/search'
+const search = '/search/movie'
 
 const urls = {
     movie:{
@@ -15,7 +15,8 @@ const urls = {
         base: genres
     },
     search:{
-        base:(query:string) => `${search}/keyword?query=${query}`
+        // base:(query:string) => `${search}/keyword?query=${query}`
+        base:(query:string) => `${search}?query=${query}`
     }
 }
 export {

@@ -14,9 +14,7 @@ const Genre: FC<IProps> = ({genre}) => {
             <NavLink to={`/genres/${id}`} >
                 {name}
             </NavLink>
-            {/*<button onClick={() => navigate(id.toString(), {state: {genre}})}>*/}
-            {/*    {name}*/}
-            {/*</button>*/}
+
         </div>
     );
 };

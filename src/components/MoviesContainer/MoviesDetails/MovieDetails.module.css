@@ -1,12 +1,18 @@
 .movieDetailsContainer{
+    margin: 50px 0 0 300px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    width: 1000px;
+    border: 2px solid grey;
+    background: darkgray;
 }
 .movieDetailsContainer p{
-    font-size: 23px;
-    color: gold;
+    font-size: 20px;
+    color: black;
+}
+.movieDetailsContainer img {
+    height: 600px;
 }
 .buttonBack{
     position: absolute;
@@ -17,4 +23,8 @@
     top: 90px;
     left: 200px;
     border: 2px solid #622a2a;
+}
+
+.movieInfoDiv{
+    margin: 50px 0 0 40px;
 }
