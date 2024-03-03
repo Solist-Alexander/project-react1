@@ -1,4 +1,5 @@
 import React, {ChangeEvent, useEffect, useState} from 'react';
+
 import {useSearchParams} from "react-router-dom";
 import style from "../MoviesContainer/MoviesList/MoviesList.module.css";
 import {useForm} from "react-hook-form";

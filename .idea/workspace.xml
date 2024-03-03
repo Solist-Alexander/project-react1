@@ -5,52 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c624ded-8f12-423b-a36b-691d65f265f2" name="Changes" comment="project-react">
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/GenresList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresIdContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForMovie/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForSearch/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Paginations/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SwitchForHeader/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks /index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/GenresList/GenresList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/GenresList/GenresList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresIdContainer/GenresIdList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresIdContainer/GenresIdList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetailsGenres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesDetails/MovieDetailsGenres.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesList/MoviesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesList/MoviesList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/MoviesListCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MoviesListCard/MoviesListCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Paginations/PaginationForMovie/PaginationForMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForMovie/PaginationForMovie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Paginations/PaginationForSearch/PaginationForSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Paginations/PaginationForSearch/PaginationForSearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchContainer/SearchList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchContainer/SearchList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchForHeader/SwitchForHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchForHeader/SwitchForHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces /index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces /index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenresPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MovieInfoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieInfoPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/apiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/apiService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/genreService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/genreService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/searchService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/searchService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +94,7 @@
       <workItem from="1709122052876" duration="12788000" />
       <workItem from="1709286609866" duration="1909000" />
       <workItem from="1709288925690" duration="9983000" />
-      <workItem from="1709392005892" duration="21021000" />
+      <workItem from="1709392005892" duration="21396000" />
     </task>
     <task id="LOCAL-00001" summary="project-react">
       <option name="closed" value="true" />
@@ -222,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709485187206</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="project-react">
+      <option name="closed" value="true" />
+      <created>1709489209282</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709489209282</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

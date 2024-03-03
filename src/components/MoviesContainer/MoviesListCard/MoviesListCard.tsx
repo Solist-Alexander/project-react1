@@ -1,7 +1,7 @@
 import React, {FC, PropsWithChildren} from 'react';
+
 import style from './MoviesListCard.module.css'
 import {Rating} from "@mui/material";
-
 import {useNavigate} from "react-router-dom";
 import {IMovie} from "../../../interfaces ";
 import {useTheme} from "../../../hoc";

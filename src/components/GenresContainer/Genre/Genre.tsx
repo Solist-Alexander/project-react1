@@ -1,4 +1,5 @@
 import React, {FC, PropsWithChildren} from 'react';
+
 import style from './Genre.module.css'
 import {NavLink, useNavigate} from "react-router-dom";
 import {IGenre} from "../../../interfaces ";

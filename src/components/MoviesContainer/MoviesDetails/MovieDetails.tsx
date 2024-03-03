@@ -1,4 +1,5 @@
 import React, {FC, PropsWithChildren, useEffect, useState} from 'react';
+
 import {Rating} from "@mui/material";
 import style from './MovieDetails.module.css'
 import {useNavigate} from "react-router-dom";

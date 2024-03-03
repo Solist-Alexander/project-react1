@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import {useParams, useSearchParams} from "react-router-dom";
 import style from './GenresIdList.module.css'
 import {IMovie} from "../../interfaces ";

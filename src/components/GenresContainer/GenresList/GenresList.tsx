@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import style from './GenresList.module.css'
 import {IGenre} from "../../../interfaces ";
 import {genreService} from "../../../services";
