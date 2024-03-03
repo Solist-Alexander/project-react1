@@ -1,8 +1,6 @@
 .movieDetailsContainer{
     margin: 50px 0 0 300px;
     display: flex;
-    /*justify-content: center;*/
-    /*text-align: center;*/
     width: 1000px;
     border: 2px solid grey;
     background: darkgray;
@@ -11,7 +9,7 @@
     font-size: 20px;
     color: black;
 }
-.movieDetailsContainer img {
+.img {
     height: 600px;
 }
 .buttonBack{
@@ -27,4 +25,16 @@
 
 .movieInfoDiv{
     margin: 50px 0 0 40px;
+}
+.genresContainer{
+    display: flex;
+    justify-content: left;
+}
+.buttonGenre{
+    border-radius: 15px;
+    width: 80px;
+    height: 40px;
+    background: #847394;
+    border: 2px solid #635970;
+    color: gold;
 }

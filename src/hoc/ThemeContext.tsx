@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 interface ThemeContextType {
     darkTheme: boolean;
@@ -8,16 +8,22 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
-    const [darkTheme, setDarkTheme] = useState(false);
+    const [darkTheme, setDarkTheme] = useState<boolean>(() => {
+        const savedTheme = localStorage.getItem('theme');
+        return savedTheme ? JSON.parse(savedTheme) : false;
+    });
 
     const toggleTheme = () => {
-        setDarkTheme(prevTheme => !prevTheme);
-        if (!darkTheme) {
-            document.body.style.backgroundColor = "#ffefef"; // для светлой темы
-        } else {
-            document.body.style.backgroundColor = "#3c3c3c"; // для темной темы
-        }
+        setDarkTheme(prevTheme => {
+            const newTheme = !prevTheme;
+            localStorage.setItem('theme', JSON.stringify(newTheme));
+            return newTheme;
+        });
     };
+
+    useEffect(() => {
+        document.body.style.backgroundColor = darkTheme ? "#ffefef" : "#3c3c3c";
+    }, [darkTheme]);
 
     return (
         <ThemeContext.Provider value={{ darkTheme, toggleTheme }}>
