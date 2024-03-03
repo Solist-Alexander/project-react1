@@ -75,4 +75,4 @@ const SwitchForHeader: React.FC<SwitchForHeaderProps> = ({darkTheme, onChange}) 
     );
 };
 
-export default SwitchForHeader;
+export  {SwitchForHeader};

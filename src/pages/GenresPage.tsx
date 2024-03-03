@@ -1,6 +1,6 @@
 import React from 'react';
-import GenresList from "../components/GenresContainer/GenresList/GenresList";
 import {Outlet} from "react-router-dom";
+import {GenresList} from "../components";
 
 const GenresPage = () => {
     return (
@@ -11,4 +11,4 @@ const GenresPage = () => {
     );
 };
 
-export default GenresPage;
+export {GenresPage}

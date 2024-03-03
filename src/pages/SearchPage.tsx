@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchList from "../components/SearchContainer/SearchList";
+import {SearchList} from "../components";
 
 const SearchPage = () => {
     return (
@@ -9,4 +9,4 @@ const SearchPage = () => {
     );
 };
 
-export default SearchPage;
+export {SearchPage}

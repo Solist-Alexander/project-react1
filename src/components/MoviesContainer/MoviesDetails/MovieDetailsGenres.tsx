@@ -1,7 +1,7 @@
 import React, {FC, PropsWithChildren} from 'react';
-import {IGenre} from "../../../interfaces /genreInterface";
 import {useNavigate} from "react-router-dom";
 import style from './MovieDetails.module.css'
+import {IGenre} from "../../../interfaces ";
 
 interface IProps extends PropsWithChildren {
     genre: IGenre
@@ -20,4 +20,4 @@ const MovieDetailsGenres: FC<IProps> = ({genre}) => {
     );
 };
 
-export default MovieDetailsGenres;
+export  {MovieDetailsGenres};

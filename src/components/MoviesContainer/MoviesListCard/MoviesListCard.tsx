@@ -1,10 +1,10 @@
 import React, {FC, PropsWithChildren} from 'react';
-import {IMovie} from "../../../interfaces /movieInterface";
 import style from './MoviesListCard.module.css'
 import {Rating} from "@mui/material";
 
 import {useNavigate} from "react-router-dom";
-import {useTheme} from "../../../hoc/ThemeContext";
+import {IMovie} from "../../../interfaces ";
+import {useTheme} from "../../../hoc";
 
 interface IProps extends PropsWithChildren {
     movie: IMovie
@@ -32,4 +32,4 @@ const MoviesListCard: FC<IProps> = ({movie}) => {
     );
 };
 
-export default MoviesListCard;
+export  {MoviesListCard};

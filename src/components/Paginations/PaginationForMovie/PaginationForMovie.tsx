@@ -26,4 +26,4 @@ const PaginationForMovie = () => {
     );
 };
 
-export default PaginationForMovie;
+export  {PaginationForMovie};

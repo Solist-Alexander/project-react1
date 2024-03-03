@@ -1,11 +1,10 @@
 import React, {FC, PropsWithChildren, useEffect, useState} from 'react';
-import {IMovie} from "../../../interfaces /movieInterface";
-import {Rating, Typography} from "@mui/material";
+import {Rating} from "@mui/material";
 import style from './MovieDetails.module.css'
 import {useNavigate} from "react-router-dom";
-import MovieDetailsGenres from "./MovieDetailsGenres";
-import {genreService} from "../../../services/genreService";
-import {IGenre} from "../../../interfaces /genreInterface";
+import {IGenre, IMovie} from "../../../interfaces ";
+import {genreService} from "../../../services";
+import {MovieDetailsGenres} from "./MovieDetailsGenres";
 
 interface IProps extends PropsWithChildren {
     moviesDetails: IMovie
@@ -56,4 +55,4 @@ const MovieDetails: FC<IProps> = ({moviesDetails}) => {
     );
 };
 
-export default MovieDetails;
+export  {MovieDetails};

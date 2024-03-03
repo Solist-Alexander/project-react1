@@ -1,11 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import {useAppLocation} from "../../hooks /useAppLocation";
-import {IMovie} from "../../interfaces /movieInterface";
 import {useParams, useSearchParams} from "react-router-dom";
-import {movieService} from "../../services/movieService";
-import MoviesListCard from "../MoviesContainer/MoviesListCard/MoviesListCard";
 import style from './GenresIdList.module.css'
-import PaginationForMovie from "../Paginations/PaginationForMovie/PaginationForMovie";
+import {IMovie} from "../../interfaces ";
+import {movieService} from "../../services";
+import {MoviesListCard} from "../MoviesContainer";
+import {PaginationForMovie} from "../Paginations";
 
 const GenresIdList = () => {
     const [movies, setMovies] = useState<IMovie[]| null>(null);
@@ -32,4 +31,4 @@ const GenresIdList = () => {
     );
 };
 
-export default GenresIdList;
+export  {GenresIdList};

@@ -1,11 +1,11 @@
 import React, {ChangeEvent, useEffect, useState} from 'react';
-import {IMovie} from "../../interfaces /movieInterface";
 import {useSearchParams} from "react-router-dom";
 import style from "../MoviesContainer/MoviesList/MoviesList.module.css";
-import MoviesListCard from "../MoviesContainer/MoviesListCard/MoviesListCard";
 import {useForm} from "react-hook-form";
-import {searchService} from "../../services/searchService";
-import PaginationForSearch from "../Paginations/PaginationForSearch/PaginationForSearch";
+import {IMovie} from "../../interfaces ";
+import {searchService} from "../../services";
+import {MoviesListCard} from "../MoviesContainer";
+import {PaginationForSearch} from "../Paginations";
 
 const SearchList = () => {
     const [movies, setMovies] = useState<IMovie[]>([])
@@ -62,4 +62,4 @@ const SearchList = () => {
     );
 };
 
-export default SearchList;
+export  {SearchList};

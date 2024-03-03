@@ -1,6 +1,5 @@
 import React from 'react';
-import MoviesList from "../components/MoviesContainer/MoviesList/MoviesList";
-import PaginationForMovie from "../components/Paginations/PaginationForMovie/PaginationForMovie";
+import {MoviesList} from "../components";
 
 const MoviesPage = () => {
     return (
@@ -10,4 +9,4 @@ const MoviesPage = () => {
     );
 };
 
-export default MoviesPage;
+export {MoviesPage}

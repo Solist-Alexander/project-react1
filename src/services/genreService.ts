@@ -1,7 +1,7 @@
+import {urls} from "../constans";
 import {apiService} from "./apiService";
-import {urls} from "../constans/urls";
-import {IRes} from "../types/responseType";
-import {IGenres} from "../interfaces /genreInterface";
+import {IGenres} from "../interfaces ";
+import {IRes} from "../types";
 
 const genreService = {
     getAll:(): IRes<IGenres> => apiService.get(urls.genre.base)
@@ -11,6 +11,3 @@ export {
     genreService
 }
 
-export {
-
-}

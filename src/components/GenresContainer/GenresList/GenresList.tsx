@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {IGenre} from "../../../interfaces /genreInterface";
-import {genreService} from "../../../services/genreService";
-import Genre from "../Genre/Genre";
 import style from './GenresList.module.css'
+import {IGenre} from "../../../interfaces ";
+import {genreService} from "../../../services";
+import {Genre} from "../index";
 
 const GenresList = () => {
     const [genres, setGenres] = useState<IGenre[]>([])
@@ -18,4 +18,4 @@ const GenresList = () => {
     );
 };
 
-export default GenresList;
+export  {GenresList};

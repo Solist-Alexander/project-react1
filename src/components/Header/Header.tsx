@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import style from './Header.module.css'
 import {NavLink} from "react-router-dom";
-import SwitchForHeader from "../SwitchForHeader/SwitchForHeader";
-import {useTheme} from "../../hoc/ThemeContext";
+import {useTheme} from "../../hoc";
+import {SwitchForHeader} from "../SwitchForHeader";
 
 const Header = () => {
     const { darkTheme, toggleTheme } = useTheme();
@@ -26,4 +26,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export  {Header};

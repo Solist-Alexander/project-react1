@@ -1,11 +1,14 @@
-import {createBrowserRouter, Navigate, useSearchParams} from "react-router-dom";
-import MainLayout from "./layouts/MainLayout";
-import MoviesPage from "./pages/MoviesPage";
 import React from "react";
-import MovieInfoPage from "./pages/MovieInfoPage";
-import GenresPage from "./pages/GenresPage";
-import GenresIdList from "./components/GenresIdContainer/GenresIdList";
-import SearchPage from "./pages/SearchPage";
+
+import {createBrowserRouter, Navigate} from "react-router-dom";
+import {MainLayout} from "./layouts";
+import {GenresPage, MovieInfoPage, MoviesPage, SearchPage} from "./pages";
+import {GenresIdList} from "./components";
+
+
+
+
+
 
 
 

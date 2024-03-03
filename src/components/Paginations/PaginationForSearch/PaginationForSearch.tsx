@@ -28,4 +28,4 @@ const PaginationForSearch = () => {
     );
 };
 
-export default PaginationForSearch;
+export  {PaginationForSearch};

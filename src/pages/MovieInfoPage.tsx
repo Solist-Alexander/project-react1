@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import MovieDetails from "../components/MoviesContainer/MoviesDetails/MovieDetails";
 import { useParams} from "react-router-dom";
-import {movieService} from "../services/movieService";
-import {IMovie} from "../interfaces /movieInterface";
-import {useAppLocation} from "../hooks /useAppLocation";
+import {useAppLocation} from "../hooks ";
+import {IMovie} from "../interfaces ";
+import {movieService} from "../services";
+import {MovieDetails} from "../components";
 
 const MovieInfoPage = () => {
     const [moviesDetails, setMoviesDetails] = useState<IMovie | null>(null)
@@ -25,4 +25,4 @@ const MovieInfoPage = () => {
     );
 };
 
-export default MovieInfoPage;
+export {MovieInfoPage}
